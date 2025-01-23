@@ -1,7 +1,17 @@
-﻿namespace OOP05
+﻿using OOP05.Sealed;
+
+namespace OOP05
 {
     internal class Program
     {
+
+
+        static void CalcPayment(PaymentProcessor processor)
+        {
+            processor.ProcessPayment(100);
+        }
+
+
         static void Main(string[] args)
         {
             #region Abstraction [Abstract Class, Abstract Method, Abstract Property]
@@ -37,7 +47,7 @@
             #endregion
 
             #region Static [Class, Atrribute, Property, Constructor, Method] and Const
-           
+
             //Utility U01 = new Utility(1, 2);
             //Utility U02 = new Utility(5, 20);
 
@@ -45,11 +55,23 @@
 
             /// Console.WriteLine(Utility.CmToInch(23));
             /// Console.WriteLine(Utility.CmToInch(251));
-         
+
             // Console.WriteLine($"Circle Area = {Utility.CalcCircleArea(10)}");
             // Console.WriteLine($"Circle Area = {Utility.CalcCircleArea(10)}");
-            
+
             #endregion
+
+
+
+            #region Sealed [Class, Method, Property]
+
+            //ImmutableString str = new ImmutableString("Ahmed");
+            //str = new ImmutableString("Mohamed"); 
+           
+            #endregion
+
+
+
         }
     }
 }
