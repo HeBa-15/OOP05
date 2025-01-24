@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace OOP05.Partial
 {
-    class Employee
+   // Developer 02
+    internal partial class Employee
     {
+        public string? Address { get; set; }
+
+        public partial int DoSomeCode()
+        {
+            return 10;
+        }
     }
 }

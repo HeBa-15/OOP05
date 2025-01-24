@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP05", "OOP05\OOP05.csproj", "{D6F53E5B-A110-421E-8740-CB3751683393}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assigment", "Assigment\Assigment.csproj", "{EC1D2241-5097-43F4-950B-F66598E929DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D6F53E5B-A110-421E-8740-CB3751683393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6F53E5B-A110-421E-8740-CB3751683393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6F53E5B-A110-421E-8740-CB3751683393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1D2241-5097-43F4-950B-F66598E929DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1D2241-5097-43F4-950B-F66598E929DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1D2241-5097-43F4-950B-F66598E929DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1D2241-5097-43F4-950B-F66598E929DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

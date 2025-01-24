@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace OOP05.Sealed
 {
-    internal class PaymentProcessor
+    internal sealed class PaymentProcessor
     {
+        public void ProcessPayment(decimal Amount)
+        {
+            Console.WriteLine($"Amount : {Amount}");
+        }
     }
+
+    //internal class MyPaymentProcessor : PaymentProcessor
+    //{
+    //    public new void ProcessPayment (decimal Amount)
+    //    {
+    //        Console.WriteLine($"Amount : {Amount +20}");
+    //    }
+    //}
 }
