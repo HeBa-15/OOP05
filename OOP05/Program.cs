@@ -67,7 +67,20 @@ namespace OOP05
 
             //ImmutableString str = new ImmutableString("Ahmed");
             //str = new ImmutableString("Mohamed"); 
-           
+
+            #endregion
+
+
+            #region Partial [Class, struct, Interface, Method]
+
+            //Employee employee = new Employee()
+            //{
+            //    Id = 1234,
+            //    Name = "Ahmed",
+            //    Age = 23,
+            //    Address = "Alexandria"
+            //}; 
+
             #endregion
 
 
