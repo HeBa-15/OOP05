@@ -84,6 +84,17 @@ namespace OOP05
             #endregion
 
 
+            #region Class Types Summary
+
+            /// 1. Concrete Class
+            /// 2. Static Class
+            /// 3. Abstract Class
+            /// 4. Sealed Class
+            /// 5. Partial Class 
+            
+            #endregion
+
+
 
         }
     }
